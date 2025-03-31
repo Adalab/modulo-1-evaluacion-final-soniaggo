@@ -84,7 +84,13 @@ header {
     margin-top: 60px;
     margin-left: 128px;
     margin-bottom: 10%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
  }
+ 
+ .comprar-ahora:hover {
+    background-color: red;
+}
  
 
 .main-article{
