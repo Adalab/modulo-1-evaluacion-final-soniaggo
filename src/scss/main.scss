@@ -9,9 +9,7 @@ body{
     height:auto;
  overflow-x: hidden;
 }
-.button :hover{
-    background-color: red
-}
+
 
 
 .nav {
@@ -95,7 +93,8 @@ font-weight: semi-bold;
 }
 
 
-.comprar-ahora:{
+ .comprar-ahora{
+    
     width: 176px;
     height: 48px;
     background-color:#0C474B;
@@ -103,7 +102,8 @@ font-weight: semi-bold;
     margin-top: 60px;
     margin-left: 128px;
     margin-bottom: 10%;
-}
+ }
+ 
     
    
 
@@ -317,7 +317,7 @@ font-family: poppinspoppins-seemi-bold;
     //     font-size: 1.5rem;
     // }
     
-    @media (min-width: 900px) and (max-width: 1023px){
+    @media (min-width: 900px) and (max-width:1727){
 
         .header-img2{
             width: 213px;
@@ -449,7 +449,7 @@ font-family: poppinspoppins-seemi-bold;
             } 
 
 
-            @media (min-width: 1024px) and (max-width: 2560px){
+            @media (min-width: 1728px) and (max-width: 2560px){
 
 
 
@@ -471,7 +471,8 @@ font-family: poppinspoppins-seemi-bold;
                 nav ul li {
                     display: inline-block;
                     margin: 0 60px;
-                   margin-top: 60px;
+                   margin-top: 100px;
+                   font-size:22px;
                 }
                 
                 .checkbutton{
@@ -494,9 +495,9 @@ font-family: poppinspoppins-seemi-bold;
                     
                     
                         position: absolute;
-                        right: 80px; 
-                        top: -145px;
-                        height: 120px; 
+                        right:700px;
+                        top: -195px;
+                        height: 150px; 
                 
                     
                  
@@ -507,15 +508,15 @@ font-family: poppinspoppins-seemi-bold;
                     
                  margin-top: 11%;
                 margin-left: 5%;
-                font-size: 36px;
+                font-size: 50px;
                 margin-bottom: 1%;
-                padding-right: 700px;
+                padding-right:1200px;
                 
                 }
                 
                 
                 .comprar-ahora{
-                   
+                    width:250px;
                     margin-top: 10px;
                     margin-left: 5%;
                     margin-bottom: 10%;
@@ -525,9 +526,9 @@ font-family: poppinspoppins-seemi-bold;
 
                 .main-article{
                      display: grid;
-                     grid-template-columns: 330px 330px 330px;
-                     grid-template-rows:330px 200px 200px;
-                 
+                     grid-template-columns: 550px 550px 550px;
+                     grid-template-rows:430px 200px 100px;
+                   
                     // display: grid;
                     //  grid-template-rows: 1fr 1fr 1fr ;
                     // grid-template-rows:  200px 200px ;
@@ -558,7 +559,7 @@ font-family: poppinspoppins-seemi-bold;
                           margin-left:35vw;
                         margin-right: 25vw;
                         text-align: center;
-              
+                        font-size:22px;
                        
                         margin-bottom: 15vw;  
                     }
@@ -570,30 +571,37 @@ font-family: poppinspoppins-seemi-bold;
                       
                     }
                     .main-article-title {
+                       
                         grid-column: span 3;
                        margin-left: 250px;
-                       
+                       font-size:32px;
                       padding-left: 0px;
+                    
 
                         }
 
                         .img-track {
-                            
-                            margin-left: 39%;
+                            margin-top: 50px;;
+                            width:300px;
+                            height:200px;
+                            margin-left: 38%;
+                            margin-bottom:2% ;
                             }
             
                        .main-article2-section2{
-                     
-                         margin-left: 30%;
+                      padding-left:600px;
+                         margin-left: 0%;
+                         font-size:30px; 
+                    
                          
             
                         }
             
                         .main-article2-section3{
-                
-                            margin-left: 39%;
+                            font-size:26px ;
+                            margin-left: 38%;
                             
-                            margin-bottom: 4%;
+                            margin-bottom: 3%;
             
                             }
             
@@ -601,7 +609,7 @@ font-family: poppinspoppins-seemi-bold;
                             .main-article2-section4{
                
                                 padding: 0;
-                                
+                                font-size:20px;
                                 margin-left: 25%;
                                 
                                 
@@ -659,8 +667,36 @@ font-family: poppinspoppins-seemi-bold;
                                  font-weight: semi-bold;
                               
                              }
-
-
+                             .footer-article{
+                                padding-top: 40px;
+                               background-color:#0C474B; 
+                               display:flex;
+                               flex-direction: row;
+                               align-content:flex-start;
+                               align-items: center;
+                               gap: 300px;
+                               justify-content: center;
+                               font-size:18px;
+                               
+                              
+                       
+                            }
+             
+             
+                            .footer-contac{
+                              margin-top:15px ;
+                              height: 100px;
+                              
+                            }
+                            .footer-button {
+                                
+                                text-align:right;
+                                padding-right: 6vw;
+                                padding-bottom: 4vw;
+                            }
+                           .footer-button div img {
+                            width:48px;
+                           }
 
             }
                
