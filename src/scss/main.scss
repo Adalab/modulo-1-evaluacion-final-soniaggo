@@ -2,30 +2,25 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
+
 body{
-    width: 100vw;
+     width: 100vw;
     height:auto;
- overflow-x: hidden;
+     overflow-x: hidden;
 }
-
-
 
 .nav {
-   
     list-style:none;
-    width:100%;
-    height:100%;
-    display:none;
-    // position: -webkit-sticky;
-  
-   
+     width:100%;
+     height:100%;
+    display:none; 
 }
+
 .nav ul {
-    
     margin-left: 15%;
 }
+
 nav ul li {
     display: inline-block;
     margin-right: 20px;
@@ -40,20 +35,15 @@ nav ul li {
     width: 24px;
     height: 24px;
     position: fixed;
-    // padding-top: 70vh;
     padding-left: 5vw;
-    /* width: 40vw;
-    height:70vw; */
-    margin-top: 10px;
-   
-   
-   
+    margin-top: 10px; 
 } 
+
 header {
-     display: flex;
-     flex-direction: row;
-     flex-wrap: wrap;
-     background-image:url(/images/header.jpg) ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-image:url(/images/header.jpg) ;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
@@ -61,40 +51,32 @@ header {
     width: 100%;
  
 }
+
 .header-article {
     width: 100%;
     height: 100%;
 }
 
-     
-
 .header-img2{
     font-family: poppins;
     width: 180px;
-    height: 96px;
+     height: 96px;
     margin-left: 20%;
     margin-top: 15%;
-   
- 
-   
 }
 
 
 .header-title{
-    /* width:414px ;
-    height: 41px; */
- margin-top: 11%;
-margin-left: 20%;
-font-size: 24px;
-margin-bottom: 8%;
-color:#0C474B ;
-font-weight: semi-bold;
-
+     margin-top: 11%;
+    margin-left: 20%;
+    font-size: 24px;
+    margin-bottom: 8%;
+    color:#0C474B ;
+    font-weight: semi-bold;
 }
 
 
  .comprar-ahora{
-    
     width: 176px;
     height: 48px;
     background-color:#0C474B;
@@ -104,8 +86,6 @@ font-weight: semi-bold;
     margin-bottom: 10%;
  }
  
-    
-   
 
 .main-article{
 display: grid;
@@ -117,24 +97,22 @@ color: #0C474B;
 width: 100vw; 
 font-family: poppinspoppins-seemi-bold;
 
-
 }
    
-
 .main-article-section1{
-      margin-left:30vw;
+    margin-left:30vw;
     margin-right: 25vw;
-   
     margin-bottom: 15vw;  
 }
+
 .main-article-section2{
      margin-bottom: 15vw;
     margin-left: 35vw;
     margin-right: 25vw; 
   
 }
+
 .main-article-title {
-    
     font-stretch: normal;
     font-style: normal;
     line-height: normal;
@@ -148,14 +126,13 @@ font-family: poppinspoppins-seemi-bold;
     line-height: 1.5; 
   
 }
+
 .main-article2 {
-    
     background-color:#FF975A;
     width: 100%;
     height: 100%;
     color:#fff ;
     font-family: poppins;
-   
    
 } 
 
@@ -168,6 +145,7 @@ font-family: poppinspoppins-seemi-bold;
     margin-bottom: 5%;
     
 }
+
 .main-article2-section2{
    font-family:poppinspoppins-seemi-bold; 
     margin-left: 20%;
@@ -185,6 +163,7 @@ font-family: poppinspoppins-seemi-bold;
     font-family: poppins;
     margin-bottom: 8%;
 }
+
 .main-article2-section4{
    
     font-size: 0.8rem;
@@ -195,7 +174,6 @@ font-family: poppinspoppins-seemi-bold;
     border: none; 
     color:#fff ;
     background-color: #FF975A;
-    
 
 }
 
@@ -203,13 +181,10 @@ font-family: poppinspoppins-seemi-bold;
 .main-article3{
    width: 100%;
    height: 100%;
-   background-color:#F0EBE5;
-
-    
-    
-        
+   background-color:#F0EBE5;    
 
 }
+
 .main-article3-section1{
     width: 100%;
     height: 100%;
@@ -227,6 +202,7 @@ font-family: poppinspoppins-seemi-bold;
     align-content: center;
     
 }
+
 .comprar-ahora2{
     width: 176px;
     height: 48px;
@@ -240,14 +216,14 @@ font-family: poppinspoppins-seemi-bold;
 .img-restroom {
  max-width: 100%;
     height: auto;
-     
-    
 
  }
+
 .footer ul{
     list-style-type: none;
     
 }
+
 .footer-article{
      padding-top: 40px;
     background-color:#0C474B; 
@@ -277,9 +253,11 @@ font-family: poppinspoppins-seemi-bold;
     margin-bottom: 10px;
     list-style-type:none; 
 }
+
 .footer-contac{
     padding-left: 50px;
 }
+
 .footer-button {
     background-color: #0C474B;
     text-align:right;
@@ -288,40 +266,13 @@ font-family: poppinspoppins-seemi-bold;
 }
 
 
-    // .header-img2{
-    //     width: 100px;
-    //     height: 50px;
-    //     margin-left: 5%;
-    //     margin-top: 5%;
-    // }
-    // .header-title{
-    //     font-size: 1.5rem;
-    //     margin-top: 5%;
-    //     margin-left: 5%;
-    // }
-    // .comprar-ahora{
-    //     width: 100px;
-    //     height: 30px;
-    //     margin-top: 10px;
-    //     margin-left: 5%;
-    // }
-    // .main-article-section1{
-    //     margin-left:10vw;
-    //     margin-right: 10vw;
-    // }
-    // .main-article-section2{
-    //     margin-left:10vw;
-    //     margin-right: 10vw;
-    // }
-    // .main-article-title {
-    //     font-size: 1.5rem;
-    // }
+   
     
     @media (min-width: 900px) and (max-width:1727){
 
         .header-img2{
             width: 213px;
-            height: 96px;
+            
             margin-left: 260px;
            
         }
@@ -340,28 +291,26 @@ font-family: poppinspoppins-seemi-bold;
             margin-left: 10%;
             margin-bottom: 3%;
         }
+
         .nav {
              
              width:24px;
              height:24px;
             }
+
         .checkbutton{
             margin-top: 86px;
 
         }
+
         .main-article{
-            display: grid;
+        
             grid-auto-flow:row ;
             grid-template-rows: repeat(3, 200px); ;
             grid-template-columns:repeat(3, 300px) ;
-            justify-items: center;
-            align-items: center;
-            background-color: #F0EBE5;
-            color: #0C474B;
-          
-            // width: 100%;
-            font-family: poppinspoppins-seemi-bold;
+            
               }
+
               .main-article-title{
                 padding-left:  100px;
                 padding-right: 100px;
@@ -383,60 +332,41 @@ font-family: poppinspoppins-seemi-bold;
            .main-article2-section2{
          
              margin-left: 25%;
-             
-
             }
 
             .main-article2-section3{
     
                 margin-left: 37%;
                 font-size: 16px;
-                font-family: poppins;
-                margin-bottom: 8%;
+                
 
                 }
 
 
                 .main-article2-section4{
-   
                     font-size: 20px;
-                    
                     margin-left: 23%;
                     padding-bottom: 10%;
-                    
-                    
-                
                 }
-                .main-article3{
-                    width: 100%;
-                    height: 100%;
-                    
-                    
 
-                }
+
                 .main-article3-section1{
                     padding-top: 10%;
                     padding-left: 15%;
                     gap:30px;  
                 }
+
                 .comprar-ahora2{
                     width:  200px;
-                    height: 48px;
                     font-size: 20px;
                     margin-bottom: 100px;
                 }
+
                 .footer-article{
-                    padding-top: 40px;
-                   background-color:#0C474B; 
-                   display:flex;
                    flex-direction: row;
                    align-content:flex-start;
-                   align-items: center;
                    gap: 100px;
-                   justify-content: center;
-                   
-                  
-           
+                
                 }
  
  
@@ -458,16 +388,15 @@ font-family: poppinspoppins-seemi-bold;
                     list-style:none;
                     width:100%;
                     height:100%;
-                    
-                    // position: -webkit-sticky;
-                  
-                   
+         
                 }
+
                 .nav ul {
                     
                     margin-left: 15%;
                     padding: 0;
                 }
+
                 nav ul li {
                     display: inline-block;
                     margin: 0 60px;
@@ -476,36 +405,21 @@ font-family: poppinspoppins-seemi-bold;
                 }
                 
                 .checkbutton{
-                    
-                    
-                    // // padding-top: 70vh;
-                    // padding-left: 5vw;
-                    // /* width: 40vw;
-                    // height:70vw; */
-                    // margin-top: 10px;
-                    display: none;
-                   
-                   
-                   
+                
+                    display: none;  
                 } 
 
-
-
                 .header-img2{
-                    
                     
                         position: absolute;
                         right:700px;
                         top: -195px;
                         height: 150px; 
-                
-                    
-                 
-                   
+                  
                 }
 
                 .header-title{
-                    
+            
                  margin-top: 11%;
                 margin-left: 5%;
                 font-size: 50px;
@@ -514,7 +428,6 @@ font-family: poppinspoppins-seemi-bold;
                 
                 }
                 
-                
                 .comprar-ahora{
                     width:250px;
                     margin-top: 10px;
@@ -522,47 +435,24 @@ font-family: poppinspoppins-seemi-bold;
                     margin-bottom: 10%;
                 }
 
-
-
                 .main-article{
                      display: grid;
                      grid-template-columns: 550px 550px 550px;
                      grid-template-rows:430px 200px 100px;
                    
-                    // display: grid;
-                    //  grid-template-rows: 1fr 1fr 1fr ;
-                    // grid-template-rows:  200px 200px ;
-                    // grid-template-columns: 350px 350px 300px ;
-                    // justify-items: center;
-                    // align-items: center;
-                    // background-color: #F0ebe5;
-                    // background: scroll;
-                    // color: #0C474B;
-                    // width: 100vw; 
-                    // font-family: poppinspoppins-seemi-bold;
-                    
-                    
-                    
-                    // margin-left: 5vw;
-                  
-                  
-
                     }
                   
                     
-                    
-                       
-                    
                     .main-article-section1{
-                       
+                
                       width: 100%;
                           margin-left:35vw;
                         margin-right: 25vw;
                         text-align: center;
                         font-size:22px;
-                       
                         margin-bottom: 15vw;  
                     }
+
                     .main-article-section2{
                         grid-row:2;
                          margin-bottom: 15vw;
@@ -570,6 +460,7 @@ font-family: poppinspoppins-seemi-bold;
                         margin-right: 25vw; 
                       
                     }
+
                     .main-article-title {
                        
                         grid-column: span 3;
@@ -577,7 +468,6 @@ font-family: poppinspoppins-seemi-bold;
                        font-size:32px;
                       padding-left: 0px;
                     
-
                         }
 
                         .img-track {
@@ -593,8 +483,6 @@ font-family: poppinspoppins-seemi-bold;
                          margin-left: 0%;
                          font-size:30px; 
                     
-                         
-            
                         }
             
                         .main-article2-section3{
@@ -611,11 +499,9 @@ font-family: poppinspoppins-seemi-bold;
                                 padding: 0;
                                 font-size:20px;
                                 margin-left: 25%;
-                                
-                                
-            
                             
                             }
+
                             .main-article2{
                                 width: 100%;
                                 height: 650px;
@@ -630,34 +516,22 @@ font-family: poppinspoppins-seemi-bold;
                                 display: flex;
                                 flex-direction: row;
                              
-                                 
-                                 
-                                     
-                             
                              }
                              .main-article3-section1{
                                  width: 60%;
                                  height: auto;
                                  padding-top: 15%;
-                                //  padding-left: 15%;
-                                //  display: flex;
-                                //  flex-direction: column;
                                  gap:20px;
-                                //  margin-bottom: 10%;
                                  align-items: flex-start;
-                                //  padding-right: 10%;
-                                //  color:#0C474B;
-                                //  font-family: poppins;
-                                //  font-weight: semi-bold;
-                                //  align-content: center;
                                 
-                                 
                              }
+
                              .img-restroom {
                                 max-width: 100%;
                                 height: 100%;
 
                              }
+
                              .comprar-ahora2{
                                  width: 176px;
                                  height: 48px;
@@ -667,6 +541,7 @@ font-family: poppinspoppins-seemi-bold;
                                  font-weight: semi-bold;
                               
                              }
+
                              .footer-article{
                                 padding-top: 40px;
                                background-color:#0C474B; 
@@ -678,10 +553,7 @@ font-family: poppinspoppins-seemi-bold;
                                justify-content: center;
                                font-size:18px;
                                
-                              
-                       
                             }
-             
              
                             .footer-contac{
                               margin-top:15px ;
@@ -694,9 +566,7 @@ font-family: poppinspoppins-seemi-bold;
                                 padding-right: 6vw;
                                 padding-bottom: 4vw;
                             }
-                           .footer-button div img {
-                            width:48px;
-                           }
+                          
 
             }
                
