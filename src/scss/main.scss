@@ -87,9 +87,10 @@ header {
     cursor: pointer;
     transition: background-color 0.3s ease;
  }
+
  
  .comprar-ahora:hover {
-    background-color: red;
+    background-color: greenyellow;
 }
  
 
@@ -274,12 +275,12 @@ font-family: poppinspoppins-seemi-bold;
 
    
     
-    @media (min-width: 900px) and (max-width:1727){
+    @media (min-width: 900px) and (max-width:1727px){
 
         .header-img2{
-            width: 213px;
+             width: 213px;
             
-            margin-left: 260px;
+             margin-left: 260px;
            
         }
 
@@ -367,18 +368,36 @@ font-family: poppinspoppins-seemi-bold;
                     font-size: 20px;
                     margin-bottom: 100px;
                 }
+                .img-restroom{
+                    width:100% ;
+                }
+                .footer{
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                }
 
                 .footer-article{
-                   flex-direction: row;
-                   align-content:flex-start;
+                    width: 100%;
+                  flex-direction: row;
+                    align-content:flex-start;
                    gap: 100px;
+                   padding-top: 40px;
+                    background-color: #0C474B;
+                    display: flex;
+               
                 
+                   
                 }
  
  
                 .footer-contac{
                   margin-top:15px ;
                   height: 100px;
+                  
+                }
+                .footer-button{
+                   align-content: end;
                   
                 }
             
@@ -421,6 +440,7 @@ font-family: poppinspoppins-seemi-bold;
                         right:700px;
                         top: -195px;
                         height: 150px; 
+                        width:300px ;
                   
                 }
 
@@ -443,8 +463,11 @@ font-family: poppinspoppins-seemi-bold;
 
                 .main-article{
                      display: grid;
-                     grid-template-columns: 550px 550px 550px;
-                     grid-template-rows:430px 200px 100px;
+                     grid-template-columns: 520px 520px 570px;
+                     grid-template-rows:420px 220px 10px;
+               
+                    
+                 
                    
                     }
                   
